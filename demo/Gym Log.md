@@ -6,7 +6,6 @@ type command
 action QuickAdd: Add Exercise
 color blue
 ```
-^button-8s0k
 
 ```dataviewjs
 let pages = dv.pages("#workouts").where(b => b.date_of_workout >= DateTime.now().minus({weeks:1})).groupBy(b => b.date_of_workout)

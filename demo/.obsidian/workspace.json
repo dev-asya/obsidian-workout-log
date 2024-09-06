@@ -1,0 +1,120 @@
+{
+  "main": {
+    "id": "bf4f5f126ff05322",
+    "type": "split",
+    "children": [
+      {
+        "id": "6f3562a0bbb5dfbb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a92790ccaedd84c2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Log/templates/exercise_log.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0dbbaea3a39d3130",
+    "type": "split",
+    "children": [
+      {
+        "id": "0462b00731e01061",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "378d2198c4b90eff",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "cb75cfec74510f18",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3c98cc4144fec197",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "65273cf1e9641089",
+    "type": "split",
+    "children": [
+      {
+        "id": "31ba44c4f13bdb0f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a37b569dfd5b366d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Log/templates/exercise_log.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false
+    }
+  },
+  "active": "a92790ccaedd84c2",
+  "lastOpenFiles": [
+    "Gym Log.md"
+  ]
+}
