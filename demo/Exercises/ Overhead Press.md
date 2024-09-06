@@ -3,13 +3,13 @@
 ### Date: "2024-08-21"
 - Sets: "1"
 - Reps: "4"
-- Weight: None
+- Weight: "30"
 - Type: ' 2 Circuit'
 
 ### Date: "2024-08-21"
 - Sets: "3"
 - Reps: "6"
-- Weight: None
+- Weight: "20"
 - Type: ' 2 Circuit'
 
 ### Date: 2024-08-19

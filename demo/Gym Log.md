@@ -17,4 +17,3 @@ for (let group of pages.sort(d => d.key, 'desc')) {
 			.sort(k => k.type, 'asc')
 			.map(k => [k.file.link, k["exercise"], k["sets"], k["reps"], k["time"], k["weight"]]))
 }
-```

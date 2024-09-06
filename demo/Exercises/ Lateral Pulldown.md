@@ -3,25 +3,25 @@
 ### Date: "2024-08-21"
 - Sets: "1"
 - Reps: "7"
-- Weight: None
+- Weight: "30"
 - Type: ' 2 Circuit'
 
 ### Date: "2024-08-21"
 - Sets: "1"
 - Reps: "7"
-- Weight: None
+- Weight: "22.5"
 - Type: '1 Warmup'
 
 ### Date: 2024-08-20
 - Sets: "4"
 - Reps: "7"
-- Weight: None
+- Weight: "20"
 - Type: " 2 Circuit"
 
 ### Date: "2024-08-21"
 - Sets: "3"
 - Reps: "7"
-- Weight: None
+- Weight: "27.5"
 - Type: ' 2 Circuit'
 
 ### Date: 2024-08-19
