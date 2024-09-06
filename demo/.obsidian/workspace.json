@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Log/templates/exercise_log.md",
+                "file": "Log/workouts/{2024-08-21-230801}.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Log/templates/exercise_log.md",
+                "file": "Log/workouts/{2024-08-21-230801}.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,6 +115,15 @@
   },
   "active": "a92790ccaedd84c2",
   "lastOpenFiles": [
+    "Log/workouts/{2024-08-21-230829}.md",
+    "Log/workouts/{2024-08-21-230808}.md",
+    "Log/workouts/{2024-08-21-230801}.md",
+    "Log/templates/exercise_log.md",
+    "Log/workouts/exercise_log.md",
+    "Exercises/Chest Fly.md",
+    "Exercises/{exercise}.md",
+    "sdfad.py",
+    "New Text Document.txt",
     "Gym Log.md"
   ]
 }
