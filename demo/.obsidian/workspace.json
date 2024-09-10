@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Exercises/ Bicep Curl.md",
+                "file": "Exercises/ Lateral Pulldown.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Exercises/ Bicep Curl.md",
+                "file": "Exercises/ Lateral Pulldown.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,11 +115,11 @@
   },
   "active": "a92790ccaedd84c2",
   "lastOpenFiles": [
+    "Exercises/ Bicep Curl.md",
     "Exercises/ Lateral Pulldown.md",
     "Exercises/ Leg Press.md",
     "Exercises/ Incline Chest Press.md",
     "Exercises/ Calf Raises.md",
-    "Exercises/ Bicep Curl.md",
     "Exercises/ Pec Fly.md",
     "Exercises/ Row.md",
     "Exercises/ Abdominal Curl.md",

@@ -62,10 +62,7 @@ for exercise, workouts in workouts_by_exercise.items():
             output_file.write(f"- Sets: {workout['sets']}\n")
             output_file.write(f"- Reps: {workout['reps']}\n")
 
-
             output_file.write(f"- Weight: {workout['weight'][1:-1]}\n")
+
             output_file.write(f"- Type: {workout['type']}\n\n")
-
-
-    
     print(f"File written: {output_file_path}")
