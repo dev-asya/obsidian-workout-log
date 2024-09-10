@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Log/workouts/{2024-08-21-230801}.md",
+                "file": "Exercises/ Bicep Curl.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Log/workouts/{2024-08-21-230801}.md",
+                "file": "Exercises/ Bicep Curl.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,15 +115,33 @@
   },
   "active": "a92790ccaedd84c2",
   "lastOpenFiles": [
-    "Log/workouts/{2024-08-21-230829}.md",
-    "Log/workouts/{2024-08-21-230808}.md",
-    "Log/workouts/{2024-08-21-230801}.md",
+    "Exercises/ Lateral Pulldown.md",
+    "Exercises/ Leg Press.md",
+    "Exercises/ Incline Chest Press.md",
+    "Exercises/ Calf Raises.md",
+    "Exercises/ Bicep Curl.md",
+    "Exercises/ Pec Fly.md",
+    "Exercises/ Row.md",
+    "Exercises/ Abdominal Curl.md",
+    "Exercises/ Overhead Press.md",
+    "Exercises/ Triceps Press.md",
+    "Exercises/ Chest Fly.md",
     "Log/templates/exercise_log.md",
-    "Log/workouts/exercise_log.md",
-    "Exercises/Chest Fly.md",
-    "Exercises/{exercise}.md",
+    "Log/workouts/{2024-09-03-142046}.md",
+    "Log/workouts/{2024-09-03-142257}.md",
+    "Log/workouts/{2024-09-03-143807}.md",
+    "Log/workouts/{2024-09-03-143823}.md",
+    "Log/workouts/{2024-09-03-143836}.md",
+    "Log/workouts/{2024-09-05-140930}.md",
+    "Log/workouts/{2024-09-05-140942}.md",
+    "Log/workouts/{2024-09-05-141242}.md",
+    "Log/workouts/{2024-09-05-141545}.md",
+    "Log/workouts/{2024-09-05-141731}.md",
+    "Log/workouts/{2024-09-05-144857}.md",
+    "Log/workouts/{2024-09-05-145023}.md",
+    "Log/workouts/{2024-09-05-145522}.md",
+    "Log/workouts/{2024-09-05-145514}.md",
     "sdfad.py",
-    "New Text Document.txt",
-    "Gym Log.md"
+    "New Text Document.txt"
   ]
 }
