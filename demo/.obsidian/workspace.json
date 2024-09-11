@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Exercises/ Chest Fly.md",
+                "file": "Exercises/ Calf Raises.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Exercises/ Chest Fly.md",
+                "file": "Exercises/ Calf Raises.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,17 +115,18 @@
   },
   "active": "6a5fb9cbba3580fd",
   "lastOpenFiles": [
-    "Exercises/ Incline Chest Press.md",
-    "Exercises/ Abdominal Curl.md",
-    "Exercises/ Bicep Curl.md",
-    "Exercises/ Calf Raises.md",
-    "Exercises/ Leg Press.md",
-    "Exercises/ Pec Fly.md",
     "Exercises/ Row.md",
+    "Exercises/ Leg Press.md",
+    "Exercises/ Chest Fly.md",
+    "Exercises/ Incline Chest Press.md",
+    "Exercises/ Calf Raises.md",
+    "Exercises/ Abdominal Curl.md",
+    "Log/workouts/{2024-08-21-230852}.md",
+    "Exercises/ Bicep Curl.md",
+    "Exercises/ Pec Fly.md",
     "Exercises/ Overhead Press.md",
     "Exercises/ Lateral Pulldown.md",
     "Exercises/ Triceps Press.md",
-    "Exercises/ Chest Fly.md",
     "Exercises/Abdominal Curl.md",
     "Log/templates/exercise_log.md",
     "Log/workouts/{2024-08-21-230850}.md",
@@ -140,7 +141,6 @@
     "Log/workouts/{2024-08-21-230801}.md",
     "Log/workouts/{2024-08-21-230808}.md",
     "Log/workouts/{2024-08-21-230834}.md",
-    "Log/workouts/{2024-08-21-230844}.md",
     "Dataview Frequency Table.py",
     "Graph Plotter.py",
     "Graph Plotter",

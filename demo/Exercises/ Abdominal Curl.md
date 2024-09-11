@@ -1,7 +1,7 @@
 # Abdominal Curl Workouts
 
 ```dataview 
-TABLE date_of_workout AS "Date", sets AS "Number of Sets",reps AS "Number of Reps", weight AS "Weight in KG" 
+TABLE date_of_workout AS "Date", sets AS "Number of Sets",reps AS "Number of Reps", weight AS "Weight in Kg" 
 WHERE exercise =" Abdominal Curl"
 ```
 ### Date: 2024-08-21
