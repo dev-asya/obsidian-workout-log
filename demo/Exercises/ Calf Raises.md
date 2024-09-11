@@ -1,20 +1,24 @@
 # Calf Raises Workouts
 
+```dataview 
+TABLE date_of_workout AS "Date", sets AS "Number of Sets",reps AS "Number of Reps", weight AS "Weight in KG" 
+WHERE exercise =" Calf Raises"
+```
 ### Date: 2024-09-10
 - Sets: 1
 - Reps: 10
-- Weight: 0
-- Type: 1 Warmup
+- Weight: 0 kg
+- Type: Warmup
 
 ### Date: 2024-09-10
 - Sets: 1
 - Reps: 9
-- Weight: 13.5
-- Type:  2 Circuit
+- Weight: 13.5 kg
+- Type: Circuit
 
 ### Date: 2024-09-10
 - Sets: 1
 - Reps: 9
-- Weight: 35 lbs
-- Type:  2 Circuit
+- Weight: 35 lbs kg
+- Type: Circuit
 

@@ -1,20 +1,24 @@
 # Bicep Curl Workouts
 
+```dataview 
+TABLE date_of_workout AS "Date", sets AS "Number of Sets",reps AS "Number of Reps", weight AS "Weight in KG" 
+WHERE exercise =" Bicep Curl"
+```
 ### Date: 2024-09-03
 - Sets: 1
 - Reps: 8
-- Weight: 0
-- Type: 1 Warmup
+- Weight: 0 kg
+- Type: Warmup
 
 ### Date: 2024-09-03
 - Sets: 2
 - Reps: 8
-- Weight: 5
-- Type:  2 Circuit
+- Weight: 5 kg
+- Type: Circuit
 
 ### Date: 2024-09-03
 - Sets: 1
 - Reps: 6
-- Weight: 10
-- Type:  2 Circuit
+- Weight: 10 kg
+- Type: Circuit
 

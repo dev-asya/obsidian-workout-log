@@ -38,7 +38,7 @@ for filename in os.listdir(input_folder_path):
                     'sets': properties.get('sets')[1:-1],
                     'reps': properties.get('reps')[1:-1],
                     'weight': properties.get('weight'), # "[1:-1]" is not present here, because some of the workout files have weight written in imperial pounds in the form ' "X lbs" '. Instead, [1:-1] is present when writing the value.
-                    'type': properties.get('type')[1:-1],                       
+                    'type': properties.get('type')[3:-1],                       
                     'time': properties.get('time')
                 })
 
@@ -54,15 +54,17 @@ for exercise, workouts in workouts_by_exercise.items():
     
     with open(output_file_path, 'w') as output_file:
         output_file.write(f"#{exercise[1:-1]} Workouts\n\n")
-    
-
-
+        query_start = '```dataview \nTABLE date_of_workout AS "Date", sets AS "Number of Sets",reps AS "Number of Reps", weight AS "Weight in Kg" \nWHERE exercise =' 
+        query_end = "\n```\n"
+        query_full = query_start + exercise + query_end   
+        output_file.write(f"{query_full}")
+        
         for workout in workouts:
             output_file.write(f"### Date: {workout['date_of_workout'][1:-1]}\n")
             output_file.write(f"- Sets: {workout['sets']}\n")
             output_file.write(f"- Reps: {workout['reps']}\n")
 
-            output_file.write(f"- Weight: {workout['weight'][1:-1]}\n")
+            output_file.write(f"- Weight: {workout['weight'][1:-1]} kg\n")
 
-            output_file.write(f"- Type: {workout['type']}\n\n")
+            output_file.write(f"- Type:{workout['type']}\n\n")
     print(f"File written: {output_file_path}")

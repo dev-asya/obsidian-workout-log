@@ -4,6 +4,6 @@ exercise: "{{VALUE: Incline Chest Press, Lateral Pulldown, Overhead Press, Row, 
 sets: "{{VALUE:📚 sets}}"
 reps: "{{VALUE:📈 reps}}"
 weight: "{{VALUE:🏋️‍♀️ weight}}"
-type: "{{VALUE:1 Warmup,2 Circuit}}"
+type: "{{VALUE:1 Warmup,2 Circuit,3 Failure}}"
 ---
 #workouts
