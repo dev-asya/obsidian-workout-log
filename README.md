@@ -1,14 +1,12 @@
 # obsidian-workout-log
-obsidian-workout-log
-
-Forked from BugBoysWorld and would not be possible without his wonderful YouTube tutorial guide. 
 
 Run "Exercise Seperator.py", and markdown files for each exercise get generated in "/Exercises". If it doesn't work, you may need to change the input and output file paths.
 
-I'm relatively new to programming so my formatting sucks, sorry lol.
-
+Forked from BugBoysWorld and would not be possible without his wonderful YouTube tutorial guide. 
 Video Link:
 https://youtu.be/KXtrzfJ-_IM
+
+I'm relatively new to programming so my formatting sucks, sorry lol.
 
 Core Plugins Required
  - Templates
