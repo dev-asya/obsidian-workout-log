@@ -65,7 +65,7 @@ for exercise, workouts in workouts_by_exercise.items():
 
 
         output_file.write(f"#{exercise[1:-1]} Workouts\n\n")
-        Table1 = '```dataview \nTABLE date_of_workout AS "Date", sets AS "Number of Sets",reps AS "Number of Reps", weight AS "Weight in Kg" \nWHERE exercise =' 
+        Table1 = '```dataview \nTABLE date_of_workout AS "Date", sets AS "Number of Sets",reps AS "Number of Reps", weight AS "Weight in Kg" \n SORT file.name DESC \nWHERE exercise =' 
         Table2 = "\n```\n"
         Table = Table1 + exercise + Table2   
         output_file.write(f"{Table}")
@@ -79,3 +79,8 @@ for exercise, workouts in workouts_by_exercise.items():
 
             output_file.write(f"- Type:{workout['type']}\n\n")
     print(f"File written: {output_file_path}")
+
+
+
+
+    

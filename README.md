@@ -1,8 +1,14 @@
 # obsidian-workout-log
 obsidian-workout-log
 
+Forked from BugBoysWorld and would not be possible without his wonderful YouTube tutorial guide. 
 
-YouTube Video -> https://youtu.be/KXtrzfJ-_IM
+Run "Exercise Seperator.py", and markdown files for each exercise get generated in "/Exercises". If it doesn't work, you may need to change the input and output file paths.
+
+I'm relatively new to programming so my formatting sucks, sorry lol.
+
+Video Link:
+https://youtu.be/KXtrzfJ-_IM
 
 Core Plugins Required
  - Templates
@@ -18,9 +24,12 @@ Core Plugins Required
  - modify to add your own exercises for the drop down list
  
  Enhancement List
- - automate the autonumber 
+ - ~~automate the autonumber~~ Added HH*mm*ss to file names, effectively preventing duplicates
  - create summary pages for weekly, monthly, quarterly, and annual
- - formate/style the dataview tables
+ - ~~format/style the dataview tables~~ Added tables for each workout sorted by date, descending(i.e. most recent file is at the top)
  - show previous workout for the same day of the week.
- - remove the need to add zeros for items that are not used
+ - ~~remove the need to add zeros for items that are not used~~(**MAYBE**) Removed "time" property from exercises.
  - link exercise name to a video demostration
+ - dynamically change the "/Exercise" files?? I doubt that's possible in obsidian.
+ - execute the python script from obsidian.
+ - automatically identify and convert from imperial to metric.
