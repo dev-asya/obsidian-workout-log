@@ -3,7 +3,7 @@
 ```button
 name Add Exercise
 type command
-action QuickAdd: Add Exercise
+action QuickAdd: New Exercise
 color blue
 ```
 
@@ -12,8 +12,8 @@ let pages = dv.pages("#workouts").where(b => b.date_of_workout >= DateTime.now()
 
 for (let group of pages.sort(d => d.key, 'desc')) { 
 	dv.header(6, group.key);
-	dv.table(["File", "Exercise", "Set", "Reps", "Time", "Weight"], 
+	dv.table(["File", "Exercise", "Set", "Reps", "Weight"], 
 		group.rows 
 			.sort(k => k.type, 'asc')
-			.map(k => [k.file.link, k["exercise"], k["sets"], k["reps"], k["time"], k["weight"]]))
+			.map(k => [k.file.link, k["exercise"], k["sets"], k["reps"], k["weight"]]))
 }

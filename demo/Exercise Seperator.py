@@ -3,8 +3,8 @@ import re
 from collections import defaultdict
 
 # Folder containing markdown files
-input_folder_path = 'Log\workouts'
-output_folder_path = 'Exercises'
+input_folder_path = 'demo\Log\workouts'
+output_folder_path = 'demo\Exercises'
 # Dictionary to store data by exercise
 workouts_by_exercise = defaultdict(list)
 
@@ -53,11 +53,22 @@ for exercise, workouts in workouts_by_exercise.items():
     output_file_path = os.path.join(output_folder_path, file_name)
     
     with open(output_file_path, 'w') as output_file:
+
+
+        Graph1 = '```dataviewjs\nconst pages = dv.pages("#workouts").where(p => (p.exercise =='
+        Graph2 = '))\nconst dates = pages.map(p => p.file.name)\nconst weight = pages.map(p => p.weight).values\nconst exercise = pages.map(p => p.exercise)\nconst chartData = {type: "line",data: {labels: dates,datasets: [{label: "Weight (kg)",data: weight,backgroundColor: ["rgba(53, 252, 167, 1)"],borderColor: ["rgba(138, 102, 204, 0.8)"],borderWidth: 1.5,spanGaps: true,}],},};\ndv.span("**'
+        Graph3 = ' Tracker**")\nwindow.renderChart(chartData, this.container)\n```\n'
+        Graph = Graph1 + exercise + Graph2 + exercise[2:-1] + Graph3
+
+        output_file.write(f"{Graph}")
+
+
+
         output_file.write(f"#{exercise[1:-1]} Workouts\n\n")
-        query_start = '```dataview \nTABLE date_of_workout AS "Date", sets AS "Number of Sets",reps AS "Number of Reps", weight AS "Weight in Kg" \nWHERE exercise =' 
-        query_end = "\n```\n"
-        query_full = query_start + exercise + query_end   
-        output_file.write(f"{query_full}")
+        Table1 = '```dataview \nTABLE date_of_workout AS "Date", sets AS "Number of Sets",reps AS "Number of Reps", weight AS "Weight in Kg" \nWHERE exercise =' 
+        Table2 = "\n```\n"
+        Table = Table1 + exercise + Table2   
+        output_file.write(f"{Table}")
         
         for workout in workouts:
             output_file.write(f"### Date: {workout['date_of_workout'][1:-1]}\n")

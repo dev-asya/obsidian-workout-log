@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "eaab5d270c12800c",
+        "id": "3dd746f64de7e4cc",
         "type": "tabs",
         "children": [
           {
-            "id": "6a5fb9cbba3580fd",
+            "id": "1feedb6e56bbbf11",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Exercises/ Calf Raises.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Exercises/ Calf Raises.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,34 +108,35 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "6a5fb9cbba3580fd",
+  "active": "378d2198c4b90eff",
   "lastOpenFiles": [
-    "Exercises/ Row.md",
+    "Exercises/ Pec Fly.md",
+    "Exercises/Calf Raises.md",
+    "Exercises/ Overhead Press.md",
     "Exercises/ Leg Press.md",
-    "Exercises/ Chest Fly.md",
+    "Exercises/ Lateral Pulldown.md",
     "Exercises/ Incline Chest Press.md",
+    "Exercises/ Chest Fly.md",
     "Exercises/ Calf Raises.md",
     "Exercises/ Abdominal Curl.md",
-    "Log/workouts/{2024-08-21-230852}.md",
+    "Exercises/Overhead Press.md",
     "Exercises/ Bicep Curl.md",
-    "Exercises/ Pec Fly.md",
-    "Exercises/ Overhead Press.md",
-    "Exercises/ Lateral Pulldown.md",
-    "Exercises/ Triceps Press.md",
-    "Exercises/Abdominal Curl.md",
     "Log/templates/exercise_log.md",
+    "Log/workouts/{2024-08-21-230801}.md",
+    "Log/workouts/{2024-08-21-230829}.md",
+    "Log/workouts/{2024-08-21-230834}.md",
+    "Log/workouts/{2024-08-21-230808}.md",
+    "Log/workouts/{2024-08-21-230843}.md",
+    "Exercises/ Triceps Press.md",
+    "Exercises/ Row.md",
+    "Exercises",
+    "Log/workouts/{2024-08-21-230852}.md",
+    "Exercises/Abdominal Curl.md",
     "Log/workouts/{2024-08-21-230850}.md",
     "Log/workouts/{2024-08-21-230890}.md",
     "Log/workouts/{2024-08-21-230877}.md",
     "Log/workouts/{2024-08-21-230950}.md",
     "Log/workouts/{2024-08-21-230959}.md",
-    "Log/workouts/{2024-08-23-163506}.md",
-    "Log/workouts/{2024-08-23-163516}.md",
-    "Log/workouts/{2024-08-21-230921}.md",
-    "Log/workouts/{2024-08-21-230843}.md",
-    "Log/workouts/{2024-08-21-230801}.md",
-    "Log/workouts/{2024-08-21-230808}.md",
-    "Log/workouts/{2024-08-21-230834}.md",
     "Dataview Frequency Table.py",
     "Graph Plotter.py",
     "Graph Plotter",
