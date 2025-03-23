@@ -8,10 +8,10 @@ https://youtu.be/KXtrzfJ-_IM
 
 I'm relatively new to programming so my formatting sucks, sorry lol.
 
-Core Plugins Required
+Core Plugins Required:
  - Templates
  
- Community Plugins Required
+ Community Plugins Required:
  - Buttons by Sam Morrison
  - Dataview by Michael Brenan
  - QuickAdd by Christian B. B. Houmann
@@ -21,7 +21,7 @@ Core Plugins Required
  templates/exercise_log.md
  - modify to add your own exercises for the drop down list
  
- Enhancement List
+Idea To-do List
  - ~~automate the autonumber~~ Added HH*mm*ss to file names, effectively preventing duplicates
  - create summary pages for weekly, monthly, quarterly, and annual
  - ~~format/style the dataview tables~~ Added tables for each workout sorted by date, descending(i.e. most recent file is at the top)
